@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import os
 import joblib
 import plotly.express as px
 import plotly.graph_objs as go
