@@ -255,18 +255,6 @@ with tab2:
     }).sort_values(by='Importance', ascending=False)
 
 
-
-    # Set global Matplotlib configuration for transparent background and white font
-    plt.rcParams['figure.facecolor'] = 'none'  # Figure background to transparent
-    plt.rcParams['axes.facecolor'] = 'none'    # Axes background to transparent
-    plt.rcParams['savefig.facecolor'] = 'none' # Background for saved figures
-    plt.rcParams['text.color'] = 'white'       # Default text color
-    plt.rcParams['axes.labelcolor'] = 'white'  # Axis label color
-    plt.rcParams['xtick.color'] = 'white'      # X-axis tick color
-    plt.rcParams['ytick.color'] = 'white'      # Y-axis tick color
-    plt.rcParams['axes.edgecolor'] = 'white'   # Axes edge color
-    plt.rcParams['grid.color'] = 'white'       # Grid line color, if used
-
     # Renaming all headers with lowercase
     df.columns = df.columns.str.lower()
 
